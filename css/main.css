@@ -1,0 +1,73 @@
+*{
+    font-family: sans-serif;
+}
+
+#ribbon{
+    background-color: #1DBD14;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(0, 134, 0, 0.377) 25px, rgba(0, 134, 0, 0.377) 40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#birthday{
+    background-color: #055c06e8;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.336);
+}
+
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#games{
+    background-color: #fff;
+    background: url(/img/xboxWallpaper.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    margin-top: -20px;
+}
+
+#separator-gamepass{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-gamepass .content{
+    width: 110%;
+    height: 50px;
+    margin-left: -5%;
+}
+
+#footer{
+    background: #212529;
+    color: #fff;
+}
