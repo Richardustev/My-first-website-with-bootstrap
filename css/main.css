@@ -63,7 +63,8 @@
 
 #separator-gamepass .content{
     width: 110%;
-    height: 50px;
+    height: 100px;
+    background: #19191a;
     margin-left: -5%;
 }
 
