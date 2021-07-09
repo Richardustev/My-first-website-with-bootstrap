@@ -72,3 +72,9 @@
     background: #212529;
     color: #fff;
 }
+
+@media only screen and (max-width: 800px) {
+    .pc-row{
+        display: none;
+    }
+  }
